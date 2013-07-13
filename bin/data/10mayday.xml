@@ -1,0 +1,3706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xmeml>
+<xmeml version="4">
+<sequence>
+	<uuid>A8110D5B-0A65-4003-9C9C-D5088F912704</uuid>
+	<updatebehavior>add</updatebehavior>
+	<name>9mayday</name>
+	<duration>1147</duration>
+	<rate>
+		<ntsc>FALSE</ntsc>
+		<timebase>25</timebase>
+	</rate>
+	<timecode>
+		<rate>
+			<ntsc>FALSE</ntsc>
+			<timebase>25</timebase>
+		</rate>
+		<string>01:00:00:00</string>
+		<frame>90000</frame>
+		<source>source</source>
+		<displayformat>NDF</displayformat>
+	</timecode>
+	<in>-1</in>
+	<out>-1</out>
+	<media>
+		<video>
+			<format>
+				<samplecharacteristics>
+					<width>1920</width>
+					<height>1080</height>
+					<anamorphic>FALSE</anamorphic>
+					<pixelaspectratio>Square</pixelaspectratio>
+					<fielddominance>none</fielddominance>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<colordepth>24</colordepth>
+					<codec>
+						<name>Apple ProRes 422</name>
+						<appspecificdata>
+							<appname>Final Cut Pro</appname>
+							<appmanufacturer>Apple Inc.</appmanufacturer>
+							<appversion>7.0</appversion>
+							<data>
+								<qtcodec>
+									<codecname>Apple ProRes 422</codecname>
+									<codectypename>Apple ProRes 422</codectypename>
+									<codectypecode>apcn</codectypecode>
+									<codecvendorcode>appl</codecvendorcode>
+									<spatialquality>1024</spatialquality>
+									<temporalquality>0</temporalquality>
+									<keyframerate>0</keyframerate>
+									<datarate>0</datarate>
+								</qtcodec>
+							</data>
+						</appspecificdata>
+					</codec>
+				</samplecharacteristics>
+				<appspecificdata>
+					<appname>Final Cut Pro</appname>
+					<appmanufacturer>Apple Inc.</appmanufacturer>
+					<appversion>7.0</appversion>
+					<data>
+						<fcpimageprocessing>
+							<useyuv>TRUE</useyuv>
+							<usesuperwhite>FALSE</usesuperwhite>
+							<rendermode>Float10BPP</rendermode>
+						</fcpimageprocessing>
+					</data>
+				</appspecificdata>
+			</format>
+			<track>
+				<clipitem id="ships fixed">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>1796</in>
+					<out>1853</out>
+					<start>0</start>
+					<end>57</end>
+					<pixelaspectratio>Square</pixelaspectratio>
+					<enabled>TRUE</enabled>
+					<anamorphic>FALSE</anamorphic>
+					<alphatype>none</alphatype>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2">
+						<name>ships fixed.mov</name>
+						<pathurl>file://localhost/Users/PIPS/Desktop/ships%20fixed.mov</pathurl>
+						<rate>
+							<timebase>25</timebase>
+						</rate>
+						<duration>4180</duration>
+						<media>
+							<video>
+								<duration>4180</duration>
+								<samplecharacteristics>
+									<width>1920</width>
+									<height>1080</height>
+								</samplecharacteristics>
+							</video>
+							<audio>
+								<samplecharacteristics>
+									<samplerate>48000</samplerate>
+									<depth>16</depth>
+								</samplecharacteristics>
+								<channelcount>2</channelcount>
+							</audio>
+						</media>
+					</file>
+					<filter>
+						<start>-1</start>
+						<end>-1</end>
+						<effect>
+							<name>De-interlace</name>
+							<effectid>De-interlace</effectid>
+							<effectcategory>Video</effectcategory>
+							<effecttype>filter</effecttype>
+							<mediatype>video</mediatype>
+							<parameter>
+								<parameterid>field</parameterid>
+								<name>Field</name>
+								<valuemin>1</valuemin>
+								<valuemax>5</valuemax>
+								<valuelist>
+									<valueentry>
+										<name>Upper (Odd)</name>
+										<value>1</value>
+									</valueentry>
+									<valueentry>
+										<name>Lower (Even)</name>
+										<value>2</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (minimal)</name>
+										<value>3</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (medium)</name>
+										<value>4</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (max)</name>
+										<value>5</value>
+									</valueentry>
+								</valuelist>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>video</mediatype>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>1</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed3</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>1</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed4</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>1</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<fielddominance>none</fielddominance>
+					<itemhistory>
+						<uuid>D3AD2196-C303-4AFA-A327-9158946A59AC</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed5">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>1937</in>
+					<out>2032</out>
+					<start>57</start>
+					<end>152</end>
+					<pixelaspectratio>Square</pixelaspectratio>
+					<enabled>TRUE</enabled>
+					<anamorphic>FALSE</anamorphic>
+					<alphatype>none</alphatype>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<start>-1</start>
+						<end>-1</end>
+						<effect>
+							<name>De-interlace</name>
+							<effectid>De-interlace</effectid>
+							<effectcategory>Video</effectcategory>
+							<effecttype>filter</effecttype>
+							<mediatype>video</mediatype>
+							<parameter>
+								<parameterid>field</parameterid>
+								<name>Field</name>
+								<valuemin>1</valuemin>
+								<valuemax>5</valuemax>
+								<valuelist>
+									<valueentry>
+										<name>Upper (Odd)</name>
+										<value>1</value>
+									</valueentry>
+									<valueentry>
+										<name>Lower (Even)</name>
+										<value>2</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (minimal)</name>
+										<value>3</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (medium)</name>
+										<value>4</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (max)</name>
+										<value>5</value>
+									</valueentry>
+								</valuelist>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>video</mediatype>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed5</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>2</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed6</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>2</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed7</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>2</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<fielddominance>none</fielddominance>
+					<itemhistory>
+						<uuid>8496A793-292F-4859-B4C5-8B21E3F7CFB1</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed8">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>2133</in>
+					<out>2207</out>
+					<start>152</start>
+					<end>226</end>
+					<pixelaspectratio>Square</pixelaspectratio>
+					<enabled>TRUE</enabled>
+					<anamorphic>FALSE</anamorphic>
+					<alphatype>none</alphatype>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<start>-1</start>
+						<end>-1</end>
+						<effect>
+							<name>De-interlace</name>
+							<effectid>De-interlace</effectid>
+							<effectcategory>Video</effectcategory>
+							<effecttype>filter</effecttype>
+							<mediatype>video</mediatype>
+							<parameter>
+								<parameterid>field</parameterid>
+								<name>Field</name>
+								<valuemin>1</valuemin>
+								<valuemax>5</valuemax>
+								<valuelist>
+									<valueentry>
+										<name>Upper (Odd)</name>
+										<value>1</value>
+									</valueentry>
+									<valueentry>
+										<name>Lower (Even)</name>
+										<value>2</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (minimal)</name>
+										<value>3</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (medium)</name>
+										<value>4</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (max)</name>
+										<value>5</value>
+									</valueentry>
+								</valuelist>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>video</mediatype>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed8</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>3</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed9</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>3</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed10</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>3</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<fielddominance>none</fielddominance>
+					<itemhistory>
+						<uuid>4FA29F0B-B147-42F6-8C8E-ADAF986DDB6A</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed11">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>2308</in>
+					<out>2493</out>
+					<start>226</start>
+					<end>411</end>
+					<pixelaspectratio>Square</pixelaspectratio>
+					<enabled>TRUE</enabled>
+					<anamorphic>FALSE</anamorphic>
+					<alphatype>none</alphatype>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<enabled>TRUE</enabled>
+						<start>-1</start>
+						<end>-1</end>
+						<effect>
+							<name>De-interlace</name>
+							<effectid>De-interlace</effectid>
+							<effectcategory>Video</effectcategory>
+							<effecttype>filter</effecttype>
+							<mediatype>video</mediatype>
+							<parameter>
+								<parameterid>field</parameterid>
+								<name>Field</name>
+								<valuemin>1</valuemin>
+								<valuemax>5</valuemax>
+								<valuelist>
+									<valueentry>
+										<name>Upper (Odd)</name>
+										<value>1</value>
+									</valueentry>
+									<valueentry>
+										<name>Lower (Even)</name>
+										<value>2</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (minimal)</name>
+										<value>3</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (medium)</name>
+										<value>4</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (max)</name>
+										<value>5</value>
+									</valueentry>
+								</valuelist>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Basic Motion</name>
+							<effectid>basic</effectid>
+							<effectcategory>motion</effectcategory>
+							<effecttype>motion</effecttype>
+							<mediatype>video</mediatype>
+							<parameter>
+								<parameterid>scale</parameterid>
+								<name>Scale</name>
+								<valuemin>0</valuemin>
+								<valuemax>1000</valuemax>
+								<value>100</value>
+							</parameter>
+							<parameter>
+								<parameterid>rotation</parameterid>
+								<name>Rotation</name>
+								<valuemin>-8640</valuemin>
+								<valuemax>8640</valuemax>
+								<value>0</value>
+							</parameter>
+							<parameter>
+								<parameterid>center</parameterid>
+								<name>Center</name>
+								<value>
+									<horiz>0</horiz>
+									<vert>0</vert>
+								</value>
+							</parameter>
+							<parameter>
+								<parameterid>centerOffset</parameterid>
+								<name>Anchor Point</name>
+								<value>
+									<horiz>0</horiz>
+									<vert>0</vert>
+								</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<enabled>FALSE</enabled>
+						<effect>
+							<name>Drop Shadow</name>
+							<effectid>dropshadow</effectid>
+							<effectcategory>motion</effectcategory>
+							<effecttype>motion</effecttype>
+							<mediatype>video</mediatype>
+							<parameter>
+								<parameterid>offset</parameterid>
+								<name>offset</name>
+								<valuemin>-100</valuemin>
+								<valuemax>100</valuemax>
+								<value>2</value>
+							</parameter>
+							<parameter>
+								<parameterid>angle</parameterid>
+								<name>angle</name>
+								<valuemin>-720</valuemin>
+								<valuemax>720</valuemax>
+								<value>135</value>
+							</parameter>
+							<parameter>
+								<parameterid>color</parameterid>
+								<name>color</name>
+								<value>
+									<alpha>0</alpha>
+									<red>0</red>
+									<green>0</green>
+									<blue>0</blue>
+								</value>
+							</parameter>
+							<parameter>
+								<parameterid>softness</parameterid>
+								<name>softness</name>
+								<valuemin>0</valuemin>
+								<valuemax>100</valuemax>
+								<value>10</value>
+							</parameter>
+							<parameter>
+								<parameterid>opacity</parameterid>
+								<name>opacity</name>
+								<valuemin>0</valuemin>
+								<valuemax>100</valuemax>
+								<value>50</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<enabled>FALSE</enabled>
+						<effect>
+							<name>Motion Blur</name>
+							<effectid>motionblur</effectid>
+							<effectcategory>motion</effectcategory>
+							<effecttype>motion</effecttype>
+							<mediatype>video</mediatype>
+							<parameter>
+								<parameterid>duration</parameterid>
+								<name>% Blur</name>
+								<valuemin>0</valuemin>
+								<valuemax>1000</valuemax>
+								<value>500</value>
+							</parameter>
+							<parameter>
+								<parameterid>samples</parameterid>
+								<name>Samples</name>
+								<valuemin>1</valuemin>
+								<valuemax>16</valuemax>
+								<value>4</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Crop</name>
+							<effectid>crop</effectid>
+							<effectcategory>motion</effectcategory>
+							<effecttype>motion</effecttype>
+							<mediatype>video</mediatype>
+							<parameter>
+								<parameterid>left</parameterid>
+								<name>left</name>
+								<valuemin>0</valuemin>
+								<valuemax>100</valuemax>
+								<value>0</value>
+							</parameter>
+							<parameter>
+								<parameterid>right</parameterid>
+								<name>right</name>
+								<valuemin>0</valuemin>
+								<valuemax>100</valuemax>
+								<value>0</value>
+							</parameter>
+							<parameter>
+								<parameterid>top</parameterid>
+								<name>top</name>
+								<valuemin>0</valuemin>
+								<valuemax>100</valuemax>
+								<value>0</value>
+							</parameter>
+							<parameter>
+								<parameterid>bottom</parameterid>
+								<name>bottom</name>
+								<valuemin>0</valuemin>
+								<valuemax>100</valuemax>
+								<value>0</value>
+							</parameter>
+							<parameter>
+								<parameterid>edgefeather</parameterid>
+								<name>edgefeather</name>
+								<valuemin>0</valuemin>
+								<valuemax>100</valuemax>
+								<value>0</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Distort</name>
+							<effectid>deformation</effectid>
+							<effectcategory>motion</effectcategory>
+							<effecttype>motion</effecttype>
+							<mediatype>video</mediatype>
+							<parameter>
+								<parameterid>ulcorner</parameterid>
+								<name>Upper Left</name>
+								<value>
+									<horiz>-0.5</horiz>
+									<vert>-0.5</vert>
+								</value>
+							</parameter>
+							<parameter>
+								<parameterid>urcorner</parameterid>
+								<name>Upper Right</name>
+								<value>
+									<horiz>0.5</horiz>
+									<vert>-0.5</vert>
+								</value>
+							</parameter>
+							<parameter>
+								<parameterid>lrcorner</parameterid>
+								<name>Lower Right</name>
+								<value>
+									<horiz>0.5</horiz>
+									<vert>0.5</vert>
+								</value>
+							</parameter>
+							<parameter>
+								<parameterid>llcorner</parameterid>
+								<name>Lower Left</name>
+								<value>
+									<horiz>-0.5</horiz>
+									<vert>0.5</vert>
+								</value>
+							</parameter>
+							<parameter>
+								<parameterid>aspect</parameterid>
+								<name>Aspect</name>
+								<valuemin>-10000</valuemin>
+								<valuemax>10000</valuemax>
+								<value>0</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Opacity</name>
+							<effectid>opacity</effectid>
+							<effectcategory>motion</effectcategory>
+							<effecttype>motion</effecttype>
+							<mediatype>video</mediatype>
+							<parameter>
+								<parameterid>opacity</parameterid>
+								<name>opacity</name>
+								<valuemin>0</valuemin>
+								<valuemax>100</valuemax>
+								<value>100</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>video</mediatype>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed11</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>4</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed12</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>4</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed13</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>4</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<fielddominance>none</fielddominance>
+					<itemhistory>
+						<uuid>0C97E718-04A2-46DF-AF52-4C7F942D2228</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed14">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>2609</in>
+					<out>2748</out>
+					<start>411</start>
+					<end>550</end>
+					<pixelaspectratio>Square</pixelaspectratio>
+					<enabled>TRUE</enabled>
+					<anamorphic>FALSE</anamorphic>
+					<alphatype>none</alphatype>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<start>-1</start>
+						<end>-1</end>
+						<effect>
+							<name>De-interlace</name>
+							<effectid>De-interlace</effectid>
+							<effectcategory>Video</effectcategory>
+							<effecttype>filter</effecttype>
+							<mediatype>video</mediatype>
+							<parameter>
+								<parameterid>field</parameterid>
+								<name>Field</name>
+								<valuemin>1</valuemin>
+								<valuemax>5</valuemax>
+								<valuelist>
+									<valueentry>
+										<name>Upper (Odd)</name>
+										<value>1</value>
+									</valueentry>
+									<valueentry>
+										<name>Lower (Even)</name>
+										<value>2</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (minimal)</name>
+										<value>3</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (medium)</name>
+										<value>4</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (max)</name>
+										<value>5</value>
+									</valueentry>
+								</valuelist>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>video</mediatype>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed14</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>5</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed15</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>5</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed16</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>5</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<fielddominance>none</fielddominance>
+					<itemhistory>
+						<uuid>7FD8F674-4ECD-4EF8-8C2C-76BFDC7582B6</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed17">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>2874</in>
+					<out>2930</out>
+					<start>550</start>
+					<end>606</end>
+					<pixelaspectratio>Square</pixelaspectratio>
+					<enabled>TRUE</enabled>
+					<anamorphic>FALSE</anamorphic>
+					<alphatype>none</alphatype>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<start>-1</start>
+						<end>-1</end>
+						<effect>
+							<name>De-interlace</name>
+							<effectid>De-interlace</effectid>
+							<effectcategory>Video</effectcategory>
+							<effecttype>filter</effecttype>
+							<mediatype>video</mediatype>
+							<parameter>
+								<parameterid>field</parameterid>
+								<name>Field</name>
+								<valuemin>1</valuemin>
+								<valuemax>5</valuemax>
+								<valuelist>
+									<valueentry>
+										<name>Upper (Odd)</name>
+										<value>1</value>
+									</valueentry>
+									<valueentry>
+										<name>Lower (Even)</name>
+										<value>2</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (minimal)</name>
+										<value>3</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (medium)</name>
+										<value>4</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (max)</name>
+										<value>5</value>
+									</valueentry>
+								</valuelist>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>video</mediatype>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed17</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>6</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed18</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>6</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed19</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>6</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<fielddominance>none</fielddominance>
+					<itemhistory>
+						<uuid>0DF54118-CFB4-4494-9E15-AD3AD1BA7220</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed20">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>3123</in>
+					<out>3201</out>
+					<start>606</start>
+					<end>684</end>
+					<pixelaspectratio>Square</pixelaspectratio>
+					<enabled>TRUE</enabled>
+					<anamorphic>FALSE</anamorphic>
+					<alphatype>none</alphatype>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<start>-1</start>
+						<end>-1</end>
+						<effect>
+							<name>De-interlace</name>
+							<effectid>De-interlace</effectid>
+							<effectcategory>Video</effectcategory>
+							<effecttype>filter</effecttype>
+							<mediatype>video</mediatype>
+							<parameter>
+								<parameterid>field</parameterid>
+								<name>Field</name>
+								<valuemin>1</valuemin>
+								<valuemax>5</valuemax>
+								<valuelist>
+									<valueentry>
+										<name>Upper (Odd)</name>
+										<value>1</value>
+									</valueentry>
+									<valueentry>
+										<name>Lower (Even)</name>
+										<value>2</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (minimal)</name>
+										<value>3</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (medium)</name>
+										<value>4</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (max)</name>
+										<value>5</value>
+									</valueentry>
+								</valuelist>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>video</mediatype>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed20</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>7</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed21</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>7</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed22</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>7</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<fielddominance>none</fielddominance>
+					<itemhistory>
+						<uuid>7D6AA243-9D75-4019-96F9-2F0CE1A6CDEB</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed23">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>702</in>
+					<out>790</out>
+					<start>684</start>
+					<end>772</end>
+					<pixelaspectratio>Square</pixelaspectratio>
+					<enabled>TRUE</enabled>
+					<anamorphic>FALSE</anamorphic>
+					<alphatype>none</alphatype>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<start>-1</start>
+						<end>-1</end>
+						<effect>
+							<name>De-interlace</name>
+							<effectid>De-interlace</effectid>
+							<effectcategory>Video</effectcategory>
+							<effecttype>filter</effecttype>
+							<mediatype>video</mediatype>
+							<parameter>
+								<parameterid>field</parameterid>
+								<name>Field</name>
+								<valuemin>1</valuemin>
+								<valuemax>5</valuemax>
+								<valuelist>
+									<valueentry>
+										<name>Upper (Odd)</name>
+										<value>1</value>
+									</valueentry>
+									<valueentry>
+										<name>Lower (Even)</name>
+										<value>2</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (minimal)</name>
+										<value>3</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (medium)</name>
+										<value>4</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (max)</name>
+										<value>5</value>
+									</valueentry>
+								</valuelist>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>video</mediatype>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed23</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>8</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed24</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>8</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed25</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>8</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<fielddominance>none</fielddominance>
+					<itemhistory>
+						<uuid>2A0365CE-1EE7-4A61-A6C8-3C027799BA38</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed26">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>924</in>
+					<out>999</out>
+					<start>772</start>
+					<end>847</end>
+					<pixelaspectratio>Square</pixelaspectratio>
+					<enabled>TRUE</enabled>
+					<anamorphic>FALSE</anamorphic>
+					<alphatype>none</alphatype>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<start>-1</start>
+						<end>-1</end>
+						<effect>
+							<name>De-interlace</name>
+							<effectid>De-interlace</effectid>
+							<effectcategory>Video</effectcategory>
+							<effecttype>filter</effecttype>
+							<mediatype>video</mediatype>
+							<parameter>
+								<parameterid>field</parameterid>
+								<name>Field</name>
+								<valuemin>1</valuemin>
+								<valuemax>5</valuemax>
+								<valuelist>
+									<valueentry>
+										<name>Upper (Odd)</name>
+										<value>1</value>
+									</valueentry>
+									<valueentry>
+										<name>Lower (Even)</name>
+										<value>2</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (minimal)</name>
+										<value>3</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (medium)</name>
+										<value>4</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (max)</name>
+										<value>5</value>
+									</valueentry>
+								</valuelist>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>video</mediatype>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed26</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>9</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed27</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>9</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed28</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>9</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<fielddominance>none</fielddominance>
+					<itemhistory>
+						<uuid>1FD1B5F1-4BB9-4834-BEC3-FAA9A741FF91</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed29">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>1168</in>
+					<out>1248</out>
+					<start>847</start>
+					<end>927</end>
+					<pixelaspectratio>Square</pixelaspectratio>
+					<enabled>TRUE</enabled>
+					<anamorphic>FALSE</anamorphic>
+					<alphatype>none</alphatype>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<start>-1</start>
+						<end>-1</end>
+						<effect>
+							<name>De-interlace</name>
+							<effectid>De-interlace</effectid>
+							<effectcategory>Video</effectcategory>
+							<effecttype>filter</effecttype>
+							<mediatype>video</mediatype>
+							<parameter>
+								<parameterid>field</parameterid>
+								<name>Field</name>
+								<valuemin>1</valuemin>
+								<valuemax>5</valuemax>
+								<valuelist>
+									<valueentry>
+										<name>Upper (Odd)</name>
+										<value>1</value>
+									</valueentry>
+									<valueentry>
+										<name>Lower (Even)</name>
+										<value>2</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (minimal)</name>
+										<value>3</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (medium)</name>
+										<value>4</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (max)</name>
+										<value>5</value>
+									</valueentry>
+								</valuelist>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>video</mediatype>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed29</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>10</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed30</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>10</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed31</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>10</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<fielddominance>none</fielddominance>
+					<itemhistory>
+						<uuid>9B12B468-D56A-4A5D-B8F6-2AE1C38D63F9</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed32">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>1514</in>
+					<out>1620</out>
+					<start>927</start>
+					<end>1033</end>
+					<pixelaspectratio>Square</pixelaspectratio>
+					<enabled>TRUE</enabled>
+					<anamorphic>FALSE</anamorphic>
+					<alphatype>none</alphatype>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<start>-1</start>
+						<end>-1</end>
+						<effect>
+							<name>De-interlace</name>
+							<effectid>De-interlace</effectid>
+							<effectcategory>Video</effectcategory>
+							<effecttype>filter</effecttype>
+							<mediatype>video</mediatype>
+							<parameter>
+								<parameterid>field</parameterid>
+								<name>Field</name>
+								<valuemin>1</valuemin>
+								<valuemax>5</valuemax>
+								<valuelist>
+									<valueentry>
+										<name>Upper (Odd)</name>
+										<value>1</value>
+									</valueentry>
+									<valueentry>
+										<name>Lower (Even)</name>
+										<value>2</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (minimal)</name>
+										<value>3</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (medium)</name>
+										<value>4</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (max)</name>
+										<value>5</value>
+									</valueentry>
+								</valuelist>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>video</mediatype>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed32</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>11</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed33</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>11</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed34</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>11</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<fielddominance>none</fielddominance>
+					<itemhistory>
+						<uuid>ACC6BD6E-1B52-4894-81EB-DB946E25B513</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed35">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>3350</in>
+					<out>3464</out>
+					<start>1033</start>
+					<end>1147</end>
+					<pixelaspectratio>Square</pixelaspectratio>
+					<anamorphic>FALSE</anamorphic>
+					<alphatype>none</alphatype>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<start>-1</start>
+						<end>-1</end>
+						<effect>
+							<name>De-interlace</name>
+							<effectid>De-interlace</effectid>
+							<effectcategory>Video</effectcategory>
+							<effecttype>filter</effecttype>
+							<mediatype>video</mediatype>
+							<parameter>
+								<parameterid>field</parameterid>
+								<name>Field</name>
+								<valuemin>1</valuemin>
+								<valuemax>5</valuemax>
+								<valuelist>
+									<valueentry>
+										<name>Upper (Odd)</name>
+										<value>1</value>
+									</valueentry>
+									<valueentry>
+										<name>Lower (Even)</name>
+										<value>2</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (minimal)</name>
+										<value>3</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (medium)</name>
+										<value>4</value>
+									</valueentry>
+									<valueentry>
+										<name>Flicker Filter (max)</name>
+										<value>5</value>
+									</valueentry>
+								</valuelist>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>video</mediatype>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed35</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>12</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed36</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>12</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed37</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>12</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<fielddominance>none</fielddominance>
+					<itemhistory>
+						<uuid>A9C4C9F9-B0E5-4FD0-84DB-74BBA84DA81C</uuid>
+					</itemhistory>
+				</clipitem>
+				<enabled>TRUE</enabled>
+				<locked>FALSE</locked>
+			</track>
+			<track>
+				<enabled>TRUE</enabled>
+				<locked>FALSE</locked>
+			</track>
+		</video>
+		<audio>
+			<format>
+				<samplecharacteristics>
+					<depth>16</depth>
+					<samplerate>48000</samplerate>
+				</samplecharacteristics>
+			</format>
+			<outputs>
+				<group>
+					<index>1</index>
+					<numchannels>2</numchannels>
+					<downmix>0</downmix>
+					<channel>
+						<index>1</index>
+					</channel>
+					<channel>
+						<index>2</index>
+					</channel>
+				</group>
+			</outputs>
+			<in>-1</in>
+			<out>-1</out>
+			<track>
+				<clipitem id="ships fixed3">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>1796</in>
+					<out>1853</out>
+					<start>0</start>
+					<end>57</end>
+					<enabled>TRUE</enabled>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Level</name>
+								<parameterid>level</parameterid>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Audio Pan</name>
+							<effectid>audiopan</effectid>
+							<effectcategory>audiopan</effectcategory>
+							<effecttype>audiopan</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Pan</name>
+								<parameterid>pan</parameterid>
+								<valuemin>-1</valuemin>
+								<valuemax>1</valuemax>
+								<value>-1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>1</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed3</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>1</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed4</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>1</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<itemhistory>
+						<uuid>7B3DA9D5-AE87-43A8-A6F5-2B5F075E1033</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed6">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>1937</in>
+					<out>2032</out>
+					<start>57</start>
+					<end>152</end>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Level</name>
+								<parameterid>level</parameterid>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Audio Pan</name>
+							<effectid>audiopan</effectid>
+							<effectcategory>audiopan</effectcategory>
+							<effecttype>audiopan</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Pan</name>
+								<parameterid>pan</parameterid>
+								<valuemin>-1</valuemin>
+								<valuemax>1</valuemax>
+								<value>-1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed5</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>2</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed6</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>2</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed7</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>2</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<itemhistory>
+						<uuid>A2DF5EFD-82CD-4A9F-87E1-108970F8C04A</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed9">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>2133</in>
+					<out>2207</out>
+					<start>152</start>
+					<end>226</end>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Level</name>
+								<parameterid>level</parameterid>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Audio Pan</name>
+							<effectid>audiopan</effectid>
+							<effectcategory>audiopan</effectcategory>
+							<effecttype>audiopan</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Pan</name>
+								<parameterid>pan</parameterid>
+								<valuemin>-1</valuemin>
+								<valuemax>1</valuemax>
+								<value>-1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed8</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>3</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed9</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>3</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed10</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>3</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<itemhistory>
+						<uuid>BA8A09FC-15B2-4DD9-8719-E0DC1B381184</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed12">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>2308</in>
+					<out>2493</out>
+					<start>226</start>
+					<end>411</end>
+					<enabled>TRUE</enabled>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Level</name>
+								<parameterid>level</parameterid>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Audio Pan</name>
+							<effectid>audiopan</effectid>
+							<effectcategory>audiopan</effectcategory>
+							<effecttype>audiopan</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Pan</name>
+								<parameterid>pan</parameterid>
+								<valuemin>-1</valuemin>
+								<valuemax>1</valuemax>
+								<value>-1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed11</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>4</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed12</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>4</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed13</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>4</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<itemhistory>
+						<uuid>EF9E1764-9CA2-48EA-ADCC-A6BA2AD6DA6A</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed15">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>2609</in>
+					<out>2748</out>
+					<start>411</start>
+					<end>550</end>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Level</name>
+								<parameterid>level</parameterid>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Audio Pan</name>
+							<effectid>audiopan</effectid>
+							<effectcategory>audiopan</effectcategory>
+							<effecttype>audiopan</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Pan</name>
+								<parameterid>pan</parameterid>
+								<valuemin>-1</valuemin>
+								<valuemax>1</valuemax>
+								<value>-1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed14</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>5</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed15</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>5</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed16</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>5</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<itemhistory>
+						<uuid>F02DFD47-998A-4867-9426-A80C22430139</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed18">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>2874</in>
+					<out>2930</out>
+					<start>550</start>
+					<end>606</end>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Level</name>
+								<parameterid>level</parameterid>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Audio Pan</name>
+							<effectid>audiopan</effectid>
+							<effectcategory>audiopan</effectcategory>
+							<effecttype>audiopan</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Pan</name>
+								<parameterid>pan</parameterid>
+								<valuemin>-1</valuemin>
+								<valuemax>1</valuemax>
+								<value>-1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed17</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>6</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed18</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>6</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed19</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>6</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<itemhistory>
+						<uuid>31207846-6684-4360-A3C5-3D3B54585A40</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed21">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>3123</in>
+					<out>3201</out>
+					<start>606</start>
+					<end>684</end>
+					<enabled>TRUE</enabled>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Level</name>
+								<parameterid>level</parameterid>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Audio Pan</name>
+							<effectid>audiopan</effectid>
+							<effectcategory>audiopan</effectcategory>
+							<effecttype>audiopan</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Pan</name>
+								<parameterid>pan</parameterid>
+								<valuemin>-1</valuemin>
+								<valuemax>1</valuemax>
+								<value>-1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed20</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>7</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed21</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>7</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed22</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>7</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<itemhistory>
+						<uuid>91127339-2489-4BCA-BB99-9A292CEE48F2</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed24">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>702</in>
+					<out>790</out>
+					<start>684</start>
+					<end>772</end>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Level</name>
+								<parameterid>level</parameterid>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Audio Pan</name>
+							<effectid>audiopan</effectid>
+							<effectcategory>audiopan</effectcategory>
+							<effecttype>audiopan</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Pan</name>
+								<parameterid>pan</parameterid>
+								<valuemin>-1</valuemin>
+								<valuemax>1</valuemax>
+								<value>-1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed23</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>8</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed24</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>8</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed25</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>8</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<itemhistory>
+						<uuid>FD47196E-CC1E-4140-9D1F-D27FDE135043</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed27">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>924</in>
+					<out>999</out>
+					<start>772</start>
+					<end>847</end>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Level</name>
+								<parameterid>level</parameterid>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Audio Pan</name>
+							<effectid>audiopan</effectid>
+							<effectcategory>audiopan</effectcategory>
+							<effecttype>audiopan</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Pan</name>
+								<parameterid>pan</parameterid>
+								<valuemin>-1</valuemin>
+								<valuemax>1</valuemax>
+								<value>-1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed26</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>9</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed27</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>9</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed28</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>9</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<itemhistory>
+						<uuid>7527B153-989F-4E5E-893C-898C55366B33</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed30">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>1168</in>
+					<out>1248</out>
+					<start>847</start>
+					<end>927</end>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Level</name>
+								<parameterid>level</parameterid>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Audio Pan</name>
+							<effectid>audiopan</effectid>
+							<effectcategory>audiopan</effectcategory>
+							<effecttype>audiopan</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Pan</name>
+								<parameterid>pan</parameterid>
+								<valuemin>-1</valuemin>
+								<valuemax>1</valuemax>
+								<value>-1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed29</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>10</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed30</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>10</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed31</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>10</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<itemhistory>
+						<uuid>A030B34D-6E2B-4C92-91BB-191363451688</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed33">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>1514</in>
+					<out>1620</out>
+					<start>927</start>
+					<end>1033</end>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Level</name>
+								<parameterid>level</parameterid>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Audio Pan</name>
+							<effectid>audiopan</effectid>
+							<effectcategory>audiopan</effectcategory>
+							<effecttype>audiopan</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Pan</name>
+								<parameterid>pan</parameterid>
+								<valuemin>-1</valuemin>
+								<valuemax>1</valuemax>
+								<value>-1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed32</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>11</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed33</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>11</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed34</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>11</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<itemhistory>
+						<uuid>88E83B43-4A21-4394-91F3-13AD58A7F9BB</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed36">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>3350</in>
+					<out>3464</out>
+					<start>1033</start>
+					<end>1147</end>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Level</name>
+								<parameterid>level</parameterid>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Audio Pan</name>
+							<effectid>audiopan</effectid>
+							<effectcategory>audiopan</effectcategory>
+							<effecttype>audiopan</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Pan</name>
+								<parameterid>pan</parameterid>
+								<valuemin>-1</valuemin>
+								<valuemax>1</valuemax>
+								<value>-1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed35</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>12</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed36</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>12</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed37</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>12</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<itemhistory>
+						<uuid>A5E74523-DB4D-44DD-B303-7A0BCF27BC87</uuid>
+					</itemhistory>
+				</clipitem>
+				<enabled>TRUE</enabled>
+				<locked>FALSE</locked>
+				<outputchannelindex>1</outputchannelindex>
+			</track>
+			<track>
+				<clipitem id="ships fixed4">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>1796</in>
+					<out>1853</out>
+					<start>0</start>
+					<end>57</end>
+					<enabled>TRUE</enabled>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Level</name>
+								<parameterid>level</parameterid>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Audio Pan</name>
+							<effectid>audiopan</effectid>
+							<effectcategory>audiopan</effectcategory>
+							<effecttype>audiopan</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Pan</name>
+								<parameterid>pan</parameterid>
+								<valuemin>-1</valuemin>
+								<valuemax>1</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>1</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed3</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>1</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed4</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>1</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<itemhistory>
+						<uuid>D1A950E9-C9A1-4A02-9F6F-2972E6F29C5D</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed7">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>1937</in>
+					<out>2032</out>
+					<start>57</start>
+					<end>152</end>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Level</name>
+								<parameterid>level</parameterid>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Audio Pan</name>
+							<effectid>audiopan</effectid>
+							<effectcategory>audiopan</effectcategory>
+							<effecttype>audiopan</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Pan</name>
+								<parameterid>pan</parameterid>
+								<valuemin>-1</valuemin>
+								<valuemax>1</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed5</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>2</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed6</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>2</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed7</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>2</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<itemhistory>
+						<uuid>5F453C51-2753-4E68-B6DF-EE8E0C7F578D</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed10">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>2133</in>
+					<out>2207</out>
+					<start>152</start>
+					<end>226</end>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Level</name>
+								<parameterid>level</parameterid>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Audio Pan</name>
+							<effectid>audiopan</effectid>
+							<effectcategory>audiopan</effectcategory>
+							<effecttype>audiopan</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Pan</name>
+								<parameterid>pan</parameterid>
+								<valuemin>-1</valuemin>
+								<valuemax>1</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed8</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>3</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed9</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>3</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed10</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>3</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<itemhistory>
+						<uuid>ABA5BAA9-A777-45E1-AA06-3A21395E29FE</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed13">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>2308</in>
+					<out>2493</out>
+					<start>226</start>
+					<end>411</end>
+					<enabled>TRUE</enabled>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Level</name>
+								<parameterid>level</parameterid>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Audio Pan</name>
+							<effectid>audiopan</effectid>
+							<effectcategory>audiopan</effectcategory>
+							<effecttype>audiopan</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Pan</name>
+								<parameterid>pan</parameterid>
+								<valuemin>-1</valuemin>
+								<valuemax>1</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed11</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>4</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed12</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>4</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed13</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>4</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<itemhistory>
+						<uuid>7152C371-C4D3-474A-820B-64D3CCC73B04</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed16">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>2609</in>
+					<out>2748</out>
+					<start>411</start>
+					<end>550</end>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Level</name>
+								<parameterid>level</parameterid>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Audio Pan</name>
+							<effectid>audiopan</effectid>
+							<effectcategory>audiopan</effectcategory>
+							<effecttype>audiopan</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Pan</name>
+								<parameterid>pan</parameterid>
+								<valuemin>-1</valuemin>
+								<valuemax>1</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed14</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>5</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed15</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>5</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed16</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>5</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<itemhistory>
+						<uuid>D727078C-077E-4145-9DE3-F147D4B61489</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed19">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>2874</in>
+					<out>2930</out>
+					<start>550</start>
+					<end>606</end>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Level</name>
+								<parameterid>level</parameterid>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Audio Pan</name>
+							<effectid>audiopan</effectid>
+							<effectcategory>audiopan</effectcategory>
+							<effecttype>audiopan</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Pan</name>
+								<parameterid>pan</parameterid>
+								<valuemin>-1</valuemin>
+								<valuemax>1</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed17</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>6</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed18</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>6</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed19</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>6</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<itemhistory>
+						<uuid>592CBC5F-C41E-4974-9489-B59C38BF26E8</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed22">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>3123</in>
+					<out>3201</out>
+					<start>606</start>
+					<end>684</end>
+					<enabled>TRUE</enabled>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Level</name>
+								<parameterid>level</parameterid>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Audio Pan</name>
+							<effectid>audiopan</effectid>
+							<effectcategory>audiopan</effectcategory>
+							<effecttype>audiopan</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Pan</name>
+								<parameterid>pan</parameterid>
+								<valuemin>-1</valuemin>
+								<valuemax>1</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed20</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>7</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed21</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>7</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed22</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>7</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<itemhistory>
+						<uuid>F4B74C9A-FF57-41E1-BB77-AF2B5CCA92FC</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed25">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>702</in>
+					<out>790</out>
+					<start>684</start>
+					<end>772</end>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Level</name>
+								<parameterid>level</parameterid>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Audio Pan</name>
+							<effectid>audiopan</effectid>
+							<effectcategory>audiopan</effectcategory>
+							<effecttype>audiopan</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Pan</name>
+								<parameterid>pan</parameterid>
+								<valuemin>-1</valuemin>
+								<valuemax>1</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed23</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>8</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed24</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>8</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed25</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>8</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<itemhistory>
+						<uuid>F427D2BE-A395-4CC3-90E7-40357B93D506</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed28">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>924</in>
+					<out>999</out>
+					<start>772</start>
+					<end>847</end>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Level</name>
+								<parameterid>level</parameterid>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Audio Pan</name>
+							<effectid>audiopan</effectid>
+							<effectcategory>audiopan</effectcategory>
+							<effecttype>audiopan</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Pan</name>
+								<parameterid>pan</parameterid>
+								<valuemin>-1</valuemin>
+								<valuemax>1</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed26</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>9</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed27</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>9</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed28</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>9</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<itemhistory>
+						<uuid>EB129DE9-E14E-4F67-9620-C5884CA7FE5E</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed31">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>1168</in>
+					<out>1248</out>
+					<start>847</start>
+					<end>927</end>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Level</name>
+								<parameterid>level</parameterid>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Audio Pan</name>
+							<effectid>audiopan</effectid>
+							<effectcategory>audiopan</effectcategory>
+							<effecttype>audiopan</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Pan</name>
+								<parameterid>pan</parameterid>
+								<valuemin>-1</valuemin>
+								<valuemax>1</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed29</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>10</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed30</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>10</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed31</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>10</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<itemhistory>
+						<uuid>D358752D-4B52-4E9F-8192-445D961CD936</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed34">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>1514</in>
+					<out>1620</out>
+					<start>927</start>
+					<end>1033</end>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Level</name>
+								<parameterid>level</parameterid>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Audio Pan</name>
+							<effectid>audiopan</effectid>
+							<effectcategory>audiopan</effectcategory>
+							<effecttype>audiopan</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Pan</name>
+								<parameterid>pan</parameterid>
+								<valuemin>-1</valuemin>
+								<valuemax>1</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed32</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>11</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed33</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>11</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed34</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>11</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<itemhistory>
+						<uuid>7E872081-182D-4FD2-B158-2658D2BE367E</uuid>
+					</itemhistory>
+				</clipitem>
+				<clipitem id="ships fixed37">
+					<name>ships fixed</name>
+					<duration>4180</duration>
+					<rate>
+						<ntsc>FALSE</ntsc>
+						<timebase>25</timebase>
+					</rate>
+					<in>3350</in>
+					<out>3464</out>
+					<start>1033</start>
+					<end>1147</end>
+					<masterclipid>ships fixed1</masterclipid>
+					<logginginfo>
+						<scene/>
+						<shottake/>
+						<lognote/>
+						<good>FALSE</good>
+					</logginginfo>
+					<labels>
+						<label2/>
+					</labels>
+					<comments>
+						<mastercomment1/>
+						<mastercomment2/>
+						<mastercomment3/>
+						<mastercomment4/>
+					</comments>
+					<file id="ships fixed2"/>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Level</name>
+								<parameterid>level</parameterid>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<filter>
+						<effect>
+							<name>Audio Pan</name>
+							<effectid>audiopan</effectid>
+							<effectcategory>audiopan</effectcategory>
+							<effecttype>audiopan</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter>
+								<name>Pan</name>
+								<parameterid>pan</parameterid>
+								<valuemin>-1</valuemin>
+								<valuemax>1</valuemax>
+								<value>1</value>
+							</parameter>
+						</effect>
+					</filter>
+					<sourcetrack>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+					</sourcetrack>
+					<link>
+						<linkclipref>ships fixed35</linkclipref>
+						<mediatype>video</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>12</clipindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed36</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>1</trackindex>
+						<clipindex>12</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<link>
+						<linkclipref>ships fixed37</linkclipref>
+						<mediatype>audio</mediatype>
+						<trackindex>2</trackindex>
+						<clipindex>12</clipindex>
+						<groupindex>1</groupindex>
+					</link>
+					<itemhistory>
+						<uuid>834AC2DC-76EC-49D5-8EB1-541BD2AF445A</uuid>
+					</itemhistory>
+				</clipitem>
+				<enabled>TRUE</enabled>
+				<locked>FALSE</locked>
+				<outputchannelindex>2</outputchannelindex>
+			</track>
+			<track>
+				<enabled>TRUE</enabled>
+				<locked>FALSE</locked>
+				<outputchannelindex>1</outputchannelindex>
+			</track>
+			<track>
+				<enabled>TRUE</enabled>
+				<locked>FALSE</locked>
+				<outputchannelindex>2</outputchannelindex>
+			</track>
+			<filter>
+				<effect>
+					<name>Audio Levels</name>
+					<effectid>audiolevels</effectid>
+					<effectcategory>audiolevels</effectcategory>
+					<effecttype>audiolevels</effecttype>
+					<mediatype>audio</mediatype>
+					<parameter>
+						<name>Level</name>
+						<parameterid>level</parameterid>
+						<valuemin>0</valuemin>
+						<valuemax>3.98109</valuemax>
+						<value>1</value>
+					</parameter>
+				</effect>
+			</filter>
+		</audio>
+	</media>
+	<ismasterclip>FALSE</ismasterclip>
+</sequence>
+</xmeml>
+
+
